@@ -17,7 +17,7 @@ namespace temporee
             Console.WriteLine("---");
             Console.WriteLine("Iterate");
             Console.WriteLine();
-            foreach (var step in Griderator.Iterate(a, b))
+            foreach (var step in GridSupport.Iterate(a, b))
             {
                 Console.WriteLine($"(count {count} / calc {step.Item1 * b + step.Item2}) : {step.Item1} / {step.Item2}");
                 count++;
@@ -27,7 +27,7 @@ namespace temporee
             Console.WriteLine("Iterate range");
             Console.WriteLine();
             count = 0;
-            foreach (var step in Griderator.IterateRange(c, a, d, b))
+            foreach (var step in GridSupport.IterateRange(c, a, d, b))
             {
                 Console.WriteLine($"(count {count} / calc {step.Item1 * b + step.Item2}) : {step.Item1} / {step.Item2}");
                 count++;
@@ -37,7 +37,7 @@ namespace temporee
             Console.WriteLine("Iterate With Struct");
             Console.WriteLine();
             count = 0;
-            foreach (var step in Griderator.IterateWithStruct(c, d))
+            foreach (var step in GridSupport.IterateWithStruct(c, d))
             {
                 Console.WriteLine($"(count {count} / calc {step.outer * b + step.inner}) : {step.outer} / {step.inner}");
                 count++;
@@ -47,7 +47,7 @@ namespace temporee
             Console.WriteLine("Iterate with Count");
             Console.WriteLine();
             count = 0;
-            foreach (var step in Griderator.IterateWithCount(a, b))
+            foreach (var step in GridSupport.IterateWithCount(a, b))
             {
                 Console.WriteLine($"(count {count} / calc {step.c}) : {step.i} / {step.y}");
                 count++;
@@ -56,7 +56,7 @@ namespace temporee
 
     }
 
-    public class Griderator
+    public class GridSupport
     {
         public struct Step
         {
@@ -130,4 +130,3 @@ namespace temporee
         }
     }
 }
-

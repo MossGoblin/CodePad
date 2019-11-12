@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\temporee\\temporee\\temporee.csproj",
-      "projectName": "temporee",
-      "projectPath": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\temporee\\temporee\\temporee.csproj",
+      "projectUniqueName": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\Iterator\\Iterator\\Iterator.csproj",
+      "projectName": "Iterator",
+      "projectPath": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\Iterator\\Iterator\\Iterator.csproj",
       "packagesPath": "C:\\Users\\Angel.Slavchev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\temporee\\temporee\\obj\\",
+      "outputPath": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\Iterator\\Iterator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
