@@ -1,0 +1,7 @@
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Primes\Primath\Primath\bin\Debug\netcoreapp3.0\MathPrimes.deps.json
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Primes\Primath\Primath\bin\Debug\netcoreapp3.0\MathPrimes.dll
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Primes\Primath\Primath\bin\Debug\netcoreapp3.0\MathPrimes.pdb
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Primes\Primath\Primath\obj\Debug\netcoreapp3.0\MathPrimes.AssemblyInfoInputs.cache
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Primes\Primath\Primath\obj\Debug\netcoreapp3.0\MathPrimes.AssemblyInfo.cs
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Primes\Primath\Primath\obj\Debug\netcoreapp3.0\MathPrimes.dll
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Primes\Primath\Primath\obj\Debug\netcoreapp3.0\MathPrimes.pdb
