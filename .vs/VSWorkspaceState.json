@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Primes",
     "\\Primes\\Primath",
-    "\\Primes\\TestPrimes",
-    "\\temporee"
+    "\\Primes\\TestPrimes"
   ],
-  "SelectedNode": "\\Primes\\Primath\\MathPrimes.sln",
   "PreviewInSolutionExplorer": false
 }
