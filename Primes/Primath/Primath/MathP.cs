@@ -35,7 +35,54 @@ namespace MathPrimes
         }
 
 
-        public bool IsPrime(ulong candidate) // check if a candidate integer is prime
+        public bool IsPrime_2(ValueType candidate) // check if a candidate integer is prime
+        {
+            // check if candidate is integer
+            if (!IsInteger(candidate))
+            {
+                throw new ArgumentException("Argument must be an integer value");
+            }
+            
+            // cast to a concrete integer type
+            var integerType = CastToInteger(candidate);
+            // TODO : HERE
+
+            // validate input for zero or negative
+            ulong number = Primeable(candidate);
+
+            // exclude even numbers
+            if (number > 2ul && number % 2ul == 0)
+            {
+                Checked.Add(number, false);
+                return false;
+            }
+
+            // handle 2
+            if (number == 2ul)
+            {
+                Checked.Add(number, true);
+                return true;
+            }
+
+            // check if the candidate has already been cached
+            if (Checked.ContainsKey(number))
+            {
+                return Checked[number];
+            }
+
+            // new candidate
+            for (int count = 3; count < Math.Sqrt((double)number); count++)
+            {
+                if (number % (ulong)count == 0)
+                {
+                    Checked.Add(number, false);
+                    return false;
+                }
+            }
+            Checked.Add(number, true);
+            return true;
+        }
+        public bool IsPrime(ValueType candidate) // check if a candidate integer is prime
         {
             // validate input for zero or negative
             ulong number = Primeable(candidate);
@@ -251,6 +298,24 @@ namespace MathPrimes
             }
 
             return result;
+        }
+
+        public static bool IsInteger(ValueType value)
+        {         
+            return (value is SByte || value is Int16 || value is Int32 
+                    || value is Int64 || value is Byte || value is UInt16  
+                    || value is UInt32 || value is UInt64 
+                    || value is BigInteger); 
+        }
+
+        private string CastToInteger(ValueType candidate)
+        {
+            if (candidate is Byte)
+            {
+                var result = (Byte)candidate;
+                return result.GetType().ToString();
+            }
+
         }
     }
 }

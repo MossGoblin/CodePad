@@ -252,6 +252,14 @@ namespace ToolBox
 
             return result;
         }
+
+        public static bool IsInteger(ValueType value)
+        {         
+            return (value is SByte || value is Int16 || value is Int32 
+                    || value is Int64 || value is Byte || value is UInt16  
+                    || value is UInt32 || value is UInt64 
+                    || value is BigInteger); 
+        }
     }
 }
 
