@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\Eventer\\Eventer\\Eventer\\Eventer.csproj",
+      "projectUniqueName": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\Eventer\\Eventer\\Eventer\\Eventer.csproj",
       "projectName": "Eventer",
-      "projectPath": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\Eventer\\Eventer\\Eventer\\Eventer.csproj",
+      "projectPath": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\Eventer\\Eventer\\Eventer\\Eventer.csproj",
       "packagesPath": "C:\\Users\\Angel.Slavchev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\Eventer\\Eventer\\Eventer\\obj\\",
+      "outputPath": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\Eventer\\Eventer\\Eventer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
