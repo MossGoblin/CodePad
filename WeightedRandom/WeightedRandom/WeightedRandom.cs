@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace WeightedRandom
 {
@@ -16,6 +15,11 @@ namespace WeightedRandom
             {
                 sum += weight;
             }
+
+            // sort distribution
+            Dictionary<int, int> sortedDistribution = new Dictionary<int, int>();
+
+            sortedDistribution = SortDistribution(weights);
 
             // roll a random
             Random rnd = new Random();
@@ -165,6 +169,15 @@ namespace WeightedRandom
             }
             return result;
         }
-    }
 
+        private static Dictionary<int, int> SortDistribution(IEnumerable<int> weights)
+        {
+            Dictionary<int, int> sortedMap = new Dictionary<int, int>();
+
+            // sort weights into the dictionary and mark the corresponding indices
+            // TODO HERE
+            return sortedMap;
+        }
+
+    }
 }
