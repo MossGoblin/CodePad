@@ -23,7 +23,7 @@ namespace WeightedRandom
 
             // start accumulated comparison
             int accumulated = 0;
-            int counter = 1;
+            int counter = 0;
             foreach (var weight in weights)
             {
                 accumulated += weight;
@@ -62,7 +62,7 @@ namespace WeightedRandom
 
             // start accumulated comparison
             double accumulated = 0;
-            int counter = 1;
+            int counter = 0;
             foreach (var weight in weights)
             {
                 accumulated += weight;
@@ -75,6 +75,49 @@ namespace WeightedRandom
             }
             return result;
         }
+
+        public static int RandomReverse(IEnumerable<int> weights)
+        {
+            int result = 0;
+
+            // sum weights
+            int sum = 0;
+            int maxValue = 0;
+            foreach (var weight in weights)
+            {
+                sum += weight;
+                maxValue = Math.Max(maxValue, weight);
+            }
+
+            // reverse weight table
+            List<int> reversedWeights = new List<int>();
+            foreach (var weight in weights)
+            {
+                reversedWeights.Add(maxValue - weight);
+            }
+
+
+            // roll a random
+            Random rnd = new Random();
+            int rndValue = rnd.Next(0, sum);
+
+            // start accumulated comparison
+            int accumulated = 0;
+            int counter = 0;
+            foreach (var weight in reversedWeights)
+            {
+                accumulated += weight;
+                if (accumulated >= rndValue)
+                {
+                    result = counter;
+                    break;
+                }
+                counter++;
+            }
+
+            return result;
+        }
+
     }
 
 }
