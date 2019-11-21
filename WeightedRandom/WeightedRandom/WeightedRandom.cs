@@ -11,15 +11,15 @@ namespace WeightedRandom
             int result = 0;
 
             // sum weights
-            int maxValue = 0;
+            int sum = 0;
             foreach (var weight in weights)
             {
-                maxValue += weight;
+                sum += weight;
             }
 
             // roll a random
             Random rnd = new Random();
-            int rndValue = rnd.Next(0, maxValue);
+            int rndValue = rnd.Next(0, sum);
 
             // start accumulated comparison
             int accumulated = 0;
@@ -42,12 +42,12 @@ namespace WeightedRandom
             int result = 0;
 
             // sum weights
-            double maxValue = 0;
+            double sum = 0;
             foreach (var weight in weights)
             {
-                maxValue += weight;
+                sum += weight;
             }
-            double factor = 1 / maxValue;
+            double factor = 1 / sum;
 
             // normalize weights
             List<double> normWeights = new List<double>();
@@ -63,7 +63,7 @@ namespace WeightedRandom
             // start accumulated comparison
             double accumulated = 0;
             int counter = 0;
-            foreach (var weight in weights)
+            foreach (var weight in normWeights)
             {
                 accumulated += weight;
                 if (accumulated >= rndValue)
@@ -93,7 +93,7 @@ namespace WeightedRandom
             List<int> reversedWeights = new List<int>();
             foreach (var weight in weights)
             {
-                reversedWeights.Add(maxValue - weight);
+                reversedWeights.Add(maxValue - weight + 1);
             }
 
 
@@ -118,6 +118,53 @@ namespace WeightedRandom
             return result;
         }
 
+        public static int RandomNormalReverse(IEnumerable<double> weights)
+        {
+            int result = 0;
+
+            // sum weights
+            double sum = 0;
+            double maxValue = 0;
+            foreach (var weight in weights)
+            {
+                sum += weight;
+                maxValue = Math.Max(maxValue, weight);
+            }
+            double factor = 1 / sum;
+
+            // reverse weight table
+            List<double> reversedWeights = new List<double>();
+            foreach (var weight in weights)
+            {
+                reversedWeights.Add(maxValue - weight + 1);
+            }
+
+            // normalize weights
+            List<double> normWeights = new List<double>();
+            foreach (var weight in reversedWeights)
+            {
+                normWeights.Add(weight * factor);
+            }
+
+            // roll a random
+            Random rnd = new Random();
+            double rndValue = rnd.NextDouble();
+
+            // start accumulated comparison
+            double accumulated = 0;
+            int counter = 0;
+            foreach (var weight in normWeights)
+            {
+                accumulated += weight;
+                if (accumulated >= rndValue)
+                {
+                    result = counter;
+                    break;
+                }
+                counter++;
+            }
+            return result;
+        }
     }
 
 }
