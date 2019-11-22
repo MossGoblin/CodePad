@@ -7,6 +7,82 @@ namespace WeightedRandom
     {
         public static int Random(IEnumerable<int> weights)
         {
+            // check for validity - fine
+            bool positive = false;
+            bool negatives = false;
+            foreach (var weight in weights)
+        	{
+                if (weight > 0)
+            	{
+                    positive = true;
+
+            	}
+                if (weight < 0)
+            	{
+                    negatives = true;
+            	}
+        	}
+
+            if (!positive || negatives)
+        	{
+                throw new ArgumentException("The distribution should have no negativ evalues and at least one positive value");
+        	}
+
+            int result = 0;
+
+            // sum weights - fine
+            int sum = 0;
+            foreach (var weight in weights)
+            {
+                sum += weight;
+            }
+
+            // roll a random
+            Random rnd = new Random();
+            int rndValue = rnd.Next(0, sum + 1);
+
+            // start accumulated comparison
+            int accumulated = 0;
+            int counter = 0;
+            foreach (var weight in weights)
+            {
+                accumulated += weight;
+                if (accumulated >= rndValue)
+                {
+                    result = counter;
+                    break;
+                }
+                else
+                {
+                    counter++;
+                }
+            }
+            return result;
+        }
+
+        public static int Random2(IEnumerable<int> weights)
+        {
+            // check for validity
+            bool positive = false;
+            bool negatives = false;
+            foreach (var weight in weights)
+        	{
+                if (weight > 0)
+            	{
+                    positive = true;
+
+            	}
+                if (weight < 0)
+            	{
+                    negatives = true;
+            	}
+        	}
+
+            if (!positive || negatives)
+        	{
+                throw new ArgumentException("The distribution should have no negativ evalues and at least one positive value");
+        	}
+
             int result = 0;
 
             // sum weights
@@ -15,11 +91,6 @@ namespace WeightedRandom
             {
                 sum += weight;
             }
-
-            // sort distribution
-            Dictionary<int, int> sortedDistribution = new Dictionary<int, int>();
-
-            sortedDistribution = SortDistribution(weights);
 
             // roll a random
             Random rnd = new Random();
@@ -38,9 +109,8 @@ namespace WeightedRandom
                 }
                 counter++;
             }
-            return result;
+            return rndValue;
         }
-
         public static int RandomNormal(IEnumerable<double> weights)
         {
             int result = 0;
