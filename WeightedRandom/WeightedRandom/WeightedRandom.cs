@@ -63,12 +63,17 @@ namespace WeightedRandom
         public static int RandomNormal(IEnumerable<double> weights)
         {
             // check validity - OK
+            bool negatives = false;
             foreach (var weight in weights)
             {
-                if (weight > 1 || weight < 0)
+                if (weight < 0)
                 {
-                    throw new ArgumentException("The distribution must contain values between 0 and 1");
+                    negatives = true;
                 }
+            }
+            if (negatives)
+            {
+                throw new ArgumentException("The distribution must contain values between 0 and 1");
             }
 
             int result = 0;
@@ -113,9 +118,23 @@ namespace WeightedRandom
 
         public static int RandomReverse(IEnumerable<int> weights)
         {
+            // validation - OK
+            bool negatives = false;
+            foreach (var weight in weights)
+            {
+                if (weight < 0)
+                {
+                    negatives = true;
+                }
+            }
+            if (negatives)
+            {
+                throw new ArgumentException("The distribution must not contain negative values");
+            }
+
             int result = 0;
 
-            // sum weights
+            // sum weights - OK
             int sum = 0;
             int maxValue = 0;
             foreach (var weight in weights)
@@ -134,7 +153,7 @@ namespace WeightedRandom
 
             // roll a random
             Random rnd = new Random();
-            int rndValue = rnd.Next(0, sum);
+            int rndValue = rnd.Next(0, sum + 1);
 
             // start accumulated comparison
             int accumulated = 0;
@@ -147,7 +166,10 @@ namespace WeightedRandom
                     result = counter;
                     break;
                 }
-                counter++;
+                else
+                {
+                    counter++;
+                }
             }
 
             return result;
@@ -155,6 +177,20 @@ namespace WeightedRandom
 
         public static int RandomNormalReverse(IEnumerable<double> weights)
         {
+            // check validity - OK
+            bool negatives = false;
+            foreach (var weight in weights)
+            {
+                if (weight < 0)
+                {
+                    negatives = true;
+                }
+            }
+            if (negatives)
+            {
+                throw new ArgumentException("The distribution must contain values between 0 and 1");
+            }
+            
             int result = 0;
 
             // sum weights
@@ -200,15 +236,5 @@ namespace WeightedRandom
             }
             return result;
         }
-
-        private static Dictionary<int, int> SortDistribution(IEnumerable<int> weights)
-        {
-            Dictionary<int, int> sortedMap = new Dictionary<int, int>();
-
-            // sort weights into the dictionary and mark the corresponding indices
-            // TODO HERE
-            return sortedMap;
-        }
-
     }
 }
