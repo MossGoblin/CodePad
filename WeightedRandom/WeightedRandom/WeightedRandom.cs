@@ -25,7 +25,7 @@ namespace WeightedRandom
 
             if (!positive || negatives)
         	{
-                throw new ArgumentException("The distribution should have no negativ evalues and at least one positive value");
+                throw new ArgumentException("The distribution must contain no negative values and at least one positive value");
         	}
 
             int result = 0;
@@ -39,7 +39,7 @@ namespace WeightedRandom
 
             // roll a random
             Random rnd = new Random();
-            int rndValue = rnd.Next(0, sum + 1);
+            int rndValue = rnd.Next(1, sum+1);
 
             // start accumulated comparison
             int accumulated = 0;

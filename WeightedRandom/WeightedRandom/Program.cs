@@ -10,9 +10,9 @@ namespace WeightedRandom
     {
         static void Main(string[] args)
         {
-            int iterations = 1000000;
+            int iterations = 10000000;
 
-            List<int> distInt = new List<int>() { 1, 1, 1, 1, 1, 1 };
+            List<int> distInt = new List<int>() { 0, 1, 1, 1, 1, 1 };
             int[] collectorINT = new int[distInt.Count];
 
             List<double> distNRM = new List<double>() { 1, 1, 1, 1, 1, 1 };
