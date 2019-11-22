@@ -60,59 +60,17 @@ namespace WeightedRandom
             return result;
         }
 
-        public static int Random2(IEnumerable<int> weights)
-        {
-            // check for validity
-            bool positive = false;
-            bool negatives = false;
-            foreach (var weight in weights)
-        	{
-                if (weight > 0)
-            	{
-                    positive = true;
-
-            	}
-                if (weight < 0)
-            	{
-                    negatives = true;
-            	}
-        	}
-
-            if (!positive || negatives)
-        	{
-                throw new ArgumentException("The distribution should have no negativ evalues and at least one positive value");
-        	}
-
-            int result = 0;
-
-            // sum weights
-            int sum = 0;
-            foreach (var weight in weights)
-            {
-                sum += weight;
-            }
-
-            // roll a random
-            Random rnd = new Random();
-            int rndValue = rnd.Next(0, sum);
-
-            // start accumulated comparison
-            int accumulated = 0;
-            int counter = 0;
-            foreach (var weight in weights)
-            {
-                accumulated += weight;
-                if (accumulated >= rndValue)
-                {
-                    result = counter;
-                    break;
-                }
-                counter++;
-            }
-            return rndValue;
-        }
         public static int RandomNormal(IEnumerable<double> weights)
         {
+            // check validity - OK
+            foreach (var weight in weights)
+            {
+                if (weight > 1 || weight < 0)
+                {
+                    throw new ArgumentException("The distribution must contain values between 0 and 1");
+                }
+            }
+
             int result = 0;
 
             // sum weights
@@ -121,16 +79,16 @@ namespace WeightedRandom
             {
                 sum += weight;
             }
-            double factor = 1 / sum;
 
             // normalize weights
+            double factor = 1 / sum;
             List<double> normWeights = new List<double>();
             foreach (var weight in weights)
             {
                 normWeights.Add(weight * factor);
             }
 
-            // roll a random
+            // roll a random - OK
             Random rnd = new Random();
             double rndValue = rnd.NextDouble();
 
@@ -145,7 +103,10 @@ namespace WeightedRandom
                     result = counter;
                     break;
                 }
-                counter++;
+                else
+                {
+                    counter++;
+                }
             }
             return result;
         }

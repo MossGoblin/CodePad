@@ -15,6 +15,10 @@ namespace WeightedRandom
             List<int> distInt = new List<int>() { 1, 1, 1, 1, 1, 1 };
             int[] collectorINT = new int[distInt.Count];
 
+            List<double> distNRM = new List<double>() { 1, 1, 1, 1, 1, 1 };
+            double[] collectorNRM = new double[distInt.Count];
+
+            // Random test
             Console.WriteLine("\n- - -");
             Console.WriteLine($">> INT {String.Join(", ", distInt)}");
             for (int i = 0; i < iterations; i++)
@@ -23,6 +27,17 @@ namespace WeightedRandom
                 collectorINT[result] ++;
             }
             Console.WriteLine(String.Join(", ", collectorINT));
+
+
+            // RandomNormal test
+            Console.WriteLine("\n- - -");
+            Console.WriteLine($">> NRM {String.Join(", ", distNRM)}");
+            for (int i = 0; i < iterations; i++)
+            {
+                int result = Weighted.RandomNormal(distNRM);
+                collectorNRM[result] ++;
+            }
+            Console.WriteLine(String.Join(", ", collectorNRM));
         }
 
         private static (int mean, int max, int min) GetMean(List<int> distribution)
