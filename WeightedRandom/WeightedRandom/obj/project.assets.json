@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Angel.Slavchev\\.nuget\\packages\\": {},
+    "C:\\Users\\hugol\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\WeightedRandom\\WeightedRandom\\WeightedRandom.csproj",
+      "projectUniqueName": "D:\\[ CODEE ]\\[ GITTED ]\\CodePad\\WeightedRandom\\WeightedRandom\\WeightedRandom.csproj",
       "projectName": "WeightedRandom",
-      "projectPath": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\WeightedRandom\\WeightedRandom\\WeightedRandom.csproj",
-      "packagesPath": "C:\\Users\\Angel.Slavchev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\WeightedRandom\\WeightedRandom\\obj\\",
+      "projectPath": "D:\\[ CODEE ]\\[ GITTED ]\\CodePad\\WeightedRandom\\WeightedRandom\\WeightedRandom.csproj",
+      "packagesPath": "C:\\Users\\hugol\\.nuget\\packages\\",
+      "outputPath": "D:\\[ CODEE ]\\[ GITTED ]\\CodePad\\WeightedRandom\\WeightedRandom\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Angel.Slavchev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hugol\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

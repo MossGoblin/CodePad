@@ -8,8 +8,8 @@ namespace WeightedRandom
     {
         static void Main(string[] args)
         {
-            int iterations = 10000000;
-            int testNumber = 4;
+            int iterations = 1000000;
+            int testNumber = 2;
 
             List<int> distIntEven = new List<int>() { 1, 1, 1, 1, 1, 1 };
             List<int> distIntCurve = new List<int>() { 1, 2, 3, 4, 3, 2 };
@@ -80,7 +80,7 @@ namespace WeightedRandom
             Console.WriteLine($">> {display} {String.Join(", ", dist)}");
             for (int i = 0; i < iterations; i++)
             {
-                int result = Weighted.Random(dist);
+                int result = Weighted.RandomReverse(dist);
                 collectorINT[result] ++;
             }
 
@@ -92,9 +92,11 @@ namespace WeightedRandom
             }
 
             List<int> redacted = new List<int>();
+            int counter = 0;
             foreach (var item in collectorINT)
             {
-                redacted.Add(item/lowest);
+                redacted.Add(item/lowest + dist[counter]);
+                counter++;
             }
 
             Console.WriteLine(String.Join(", ", collectorINT));
@@ -110,7 +112,7 @@ namespace WeightedRandom
             Console.WriteLine($">> {display} {String.Join(", ", dist)}");
             for (int i = 0; i < iterations; i++)
             {
-                int result = Weighted.RandomNormal(dist);
+                int result = Weighted.RandomNormalReverse(dist);
                 collectorNRM[result] ++;
             }
 
@@ -124,7 +126,7 @@ namespace WeightedRandom
             List<double> redacted = new List<double>();
             foreach (var item in collectorNRM)
             {
-                redacted.Add(item/lowest);
+                redacted.Add(item/(lowest+1));
             }
 
             Console.WriteLine(String.Join(", ", collectorNRM));

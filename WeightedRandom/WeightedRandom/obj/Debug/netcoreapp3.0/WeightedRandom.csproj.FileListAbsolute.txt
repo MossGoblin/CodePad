@@ -9,3 +9,14 @@ C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\WeightedRandom\W
 C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\WeightedRandom\WeightedRandom\obj\Debug\netcoreapp3.0\WeightedRandom.AssemblyInfo.cs
 C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\WeightedRandom\WeightedRandom\obj\Debug\netcoreapp3.0\WeightedRandom.dll
 C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\WeightedRandom\WeightedRandom\obj\Debug\netcoreapp3.0\WeightedRandom.pdb
+D:\[ CODEE ]\[ GITTED ]\CodePad\WeightedRandom\WeightedRandom\bin\Debug\netcoreapp3.0\WeightedRandom.exe
+D:\[ CODEE ]\[ GITTED ]\CodePad\WeightedRandom\WeightedRandom\bin\Debug\netcoreapp3.0\WeightedRandom.deps.json
+D:\[ CODEE ]\[ GITTED ]\CodePad\WeightedRandom\WeightedRandom\bin\Debug\netcoreapp3.0\WeightedRandom.runtimeconfig.json
+D:\[ CODEE ]\[ GITTED ]\CodePad\WeightedRandom\WeightedRandom\bin\Debug\netcoreapp3.0\WeightedRandom.runtimeconfig.dev.json
+D:\[ CODEE ]\[ GITTED ]\CodePad\WeightedRandom\WeightedRandom\bin\Debug\netcoreapp3.0\WeightedRandom.dll
+D:\[ CODEE ]\[ GITTED ]\CodePad\WeightedRandom\WeightedRandom\bin\Debug\netcoreapp3.0\WeightedRandom.pdb
+D:\[ CODEE ]\[ GITTED ]\CodePad\WeightedRandom\WeightedRandom\obj\Debug\netcoreapp3.0\WeightedRandom.csprojAssemblyReference.cache
+D:\[ CODEE ]\[ GITTED ]\CodePad\WeightedRandom\WeightedRandom\obj\Debug\netcoreapp3.0\WeightedRandom.AssemblyInfoInputs.cache
+D:\[ CODEE ]\[ GITTED ]\CodePad\WeightedRandom\WeightedRandom\obj\Debug\netcoreapp3.0\WeightedRandom.AssemblyInfo.cs
+D:\[ CODEE ]\[ GITTED ]\CodePad\WeightedRandom\WeightedRandom\obj\Debug\netcoreapp3.0\WeightedRandom.dll
+D:\[ CODEE ]\[ GITTED ]\CodePad\WeightedRandom\WeightedRandom\obj\Debug\netcoreapp3.0\WeightedRandom.pdb

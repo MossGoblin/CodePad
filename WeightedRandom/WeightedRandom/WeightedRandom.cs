@@ -153,7 +153,7 @@ namespace WeightedRandom
 
             // roll a random
             Random rnd = new Random();
-            int rndValue = rnd.Next(0, sum + 1);
+            int rndValue = rnd.Next(1, sum + 1);
 
             // start accumulated comparison
             int accumulated = 0;
