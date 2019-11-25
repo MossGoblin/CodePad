@@ -20,3 +20,14 @@ D:\[ CODEE ]\[ GITTED ]\CodePad\WeightedRandom\WeightedRandom\obj\Debug\netcorea
 D:\[ CODEE ]\[ GITTED ]\CodePad\WeightedRandom\WeightedRandom\obj\Debug\netcoreapp3.0\WeightedRandom.AssemblyInfo.cs
 D:\[ CODEE ]\[ GITTED ]\CodePad\WeightedRandom\WeightedRandom\obj\Debug\netcoreapp3.0\WeightedRandom.dll
 D:\[ CODEE ]\[ GITTED ]\CodePad\WeightedRandom\WeightedRandom\obj\Debug\netcoreapp3.0\WeightedRandom.pdb
+C:\Users\Yolly\Google Drive\Codee\[ GITHUBBED ]\[ MyStuff ]\CodePad\WeightedRandom\WeightedRandom\bin\Debug\netcoreapp3.0\WeightedRandom.exe
+C:\Users\Yolly\Google Drive\Codee\[ GITHUBBED ]\[ MyStuff ]\CodePad\WeightedRandom\WeightedRandom\bin\Debug\netcoreapp3.0\WeightedRandom.deps.json
+C:\Users\Yolly\Google Drive\Codee\[ GITHUBBED ]\[ MyStuff ]\CodePad\WeightedRandom\WeightedRandom\bin\Debug\netcoreapp3.0\WeightedRandom.runtimeconfig.json
+C:\Users\Yolly\Google Drive\Codee\[ GITHUBBED ]\[ MyStuff ]\CodePad\WeightedRandom\WeightedRandom\bin\Debug\netcoreapp3.0\WeightedRandom.runtimeconfig.dev.json
+C:\Users\Yolly\Google Drive\Codee\[ GITHUBBED ]\[ MyStuff ]\CodePad\WeightedRandom\WeightedRandom\bin\Debug\netcoreapp3.0\WeightedRandom.dll
+C:\Users\Yolly\Google Drive\Codee\[ GITHUBBED ]\[ MyStuff ]\CodePad\WeightedRandom\WeightedRandom\bin\Debug\netcoreapp3.0\WeightedRandom.pdb
+C:\Users\Yolly\Google Drive\Codee\[ GITHUBBED ]\[ MyStuff ]\CodePad\WeightedRandom\WeightedRandom\obj\Debug\netcoreapp3.0\WeightedRandom.csprojAssemblyReference.cache
+C:\Users\Yolly\Google Drive\Codee\[ GITHUBBED ]\[ MyStuff ]\CodePad\WeightedRandom\WeightedRandom\obj\Debug\netcoreapp3.0\WeightedRandom.AssemblyInfoInputs.cache
+C:\Users\Yolly\Google Drive\Codee\[ GITHUBBED ]\[ MyStuff ]\CodePad\WeightedRandom\WeightedRandom\obj\Debug\netcoreapp3.0\WeightedRandom.AssemblyInfo.cs
+C:\Users\Yolly\Google Drive\Codee\[ GITHUBBED ]\[ MyStuff ]\CodePad\WeightedRandom\WeightedRandom\obj\Debug\netcoreapp3.0\WeightedRandom.dll
+C:\Users\Yolly\Google Drive\Codee\[ GITHUBBED ]\[ MyStuff ]\CodePad\WeightedRandom\WeightedRandom\obj\Debug\netcoreapp3.0\WeightedRandom.pdb
