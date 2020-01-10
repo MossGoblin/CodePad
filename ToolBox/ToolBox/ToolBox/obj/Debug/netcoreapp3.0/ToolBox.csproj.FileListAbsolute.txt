@@ -1,0 +1,8 @@
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\ToolBox\ToolBox\ToolBox\obj\Debug\netcoreapp3.0\ToolBox.csprojAssemblyReference.cache
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\ToolBox\ToolBox\ToolBox\obj\Debug\netcoreapp3.0\ToolBox.AssemblyInfoInputs.cache
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\ToolBox\ToolBox\ToolBox\obj\Debug\netcoreapp3.0\ToolBox.AssemblyInfo.cs
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\ToolBox\ToolBox\ToolBox\bin\Debug\netcoreapp3.0\ToolBox.deps.json
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\ToolBox\ToolBox\ToolBox\bin\Debug\netcoreapp3.0\ToolBox.dll
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\ToolBox\ToolBox\ToolBox\bin\Debug\netcoreapp3.0\ToolBox.pdb
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\ToolBox\ToolBox\ToolBox\obj\Debug\netcoreapp3.0\ToolBox.dll
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\ToolBox\ToolBox\ToolBox\obj\Debug\netcoreapp3.0\ToolBox.pdb

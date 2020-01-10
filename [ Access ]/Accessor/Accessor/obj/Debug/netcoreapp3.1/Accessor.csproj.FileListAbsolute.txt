@@ -1,0 +1,14 @@
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\[ Access ]\Accessor\Accessor\bin\Debug\netcoreapp3.1\Accessor.exe
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\[ Access ]\Accessor\Accessor\bin\Debug\netcoreapp3.1\Accessor.deps.json
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\[ Access ]\Accessor\Accessor\bin\Debug\netcoreapp3.1\Accessor.runtimeconfig.json
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\[ Access ]\Accessor\Accessor\bin\Debug\netcoreapp3.1\Accessor.runtimeconfig.dev.json
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\[ Access ]\Accessor\Accessor\bin\Debug\netcoreapp3.1\Accessor.dll
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\[ Access ]\Accessor\Accessor\bin\Debug\netcoreapp3.1\Accessor.pdb
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\[ Access ]\Accessor\Accessor\bin\Debug\netcoreapp3.1\ToolBox.dll
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\[ Access ]\Accessor\Accessor\bin\Debug\netcoreapp3.1\ToolBox.pdb
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\[ Access ]\Accessor\Accessor\obj\Debug\netcoreapp3.1\Accessor.csprojAssemblyReference.cache
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\[ Access ]\Accessor\Accessor\obj\Debug\netcoreapp3.1\Accessor.AssemblyInfoInputs.cache
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\[ Access ]\Accessor\Accessor\obj\Debug\netcoreapp3.1\Accessor.AssemblyInfo.cs
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\[ Access ]\Accessor\Accessor\obj\Debug\netcoreapp3.1\Accessor.csproj.CopyComplete
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\[ Access ]\Accessor\Accessor\obj\Debug\netcoreapp3.1\Accessor.dll
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\[ Access ]\Accessor\Accessor\obj\Debug\netcoreapp3.1\Accessor.pdb

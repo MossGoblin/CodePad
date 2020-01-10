@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ToolBox
 {
-    public class Iterator
+    public static class Iterator
     {
         public struct Step
         {
