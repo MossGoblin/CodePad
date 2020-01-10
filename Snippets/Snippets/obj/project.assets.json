@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\[ TankUp ]\\TEMPS\\Snippets\\Snippets\\Snippets.csproj",
+      "projectUniqueName": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\Snippets\\Snippets\\Snippets.csproj",
       "projectName": "Snippets",
-      "projectPath": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\[ TankUp ]\\TEMPS\\Snippets\\Snippets\\Snippets.csproj",
+      "projectPath": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\Snippets\\Snippets\\Snippets.csproj",
       "packagesPath": "C:\\Users\\Angel.Slavchev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\[ TankUp ]\\TEMPS\\Snippets\\Snippets\\obj\\",
+      "outputPath": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\Snippets\\Snippets\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

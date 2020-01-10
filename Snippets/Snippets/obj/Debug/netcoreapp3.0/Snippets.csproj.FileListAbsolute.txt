@@ -9,3 +9,14 @@ C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\[ TankUp ]\TEMPS\Snippet
 C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\[ TankUp ]\TEMPS\Snippets\Snippets\obj\Debug\netcoreapp3.0\Snippets.AssemblyInfo.cs
 C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\[ TankUp ]\TEMPS\Snippets\Snippets\obj\Debug\netcoreapp3.0\Snippets.dll
 C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\[ TankUp ]\TEMPS\Snippets\Snippets\obj\Debug\netcoreapp3.0\Snippets.pdb
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Snippets\Snippets\bin\Debug\netcoreapp3.0\Snippets.exe
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Snippets\Snippets\bin\Debug\netcoreapp3.0\Snippets.deps.json
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Snippets\Snippets\bin\Debug\netcoreapp3.0\Snippets.runtimeconfig.json
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Snippets\Snippets\bin\Debug\netcoreapp3.0\Snippets.runtimeconfig.dev.json
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Snippets\Snippets\bin\Debug\netcoreapp3.0\Snippets.dll
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Snippets\Snippets\bin\Debug\netcoreapp3.0\Snippets.pdb
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Snippets\Snippets\obj\Debug\netcoreapp3.0\Snippets.csprojAssemblyReference.cache
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Snippets\Snippets\obj\Debug\netcoreapp3.0\Snippets.AssemblyInfoInputs.cache
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Snippets\Snippets\obj\Debug\netcoreapp3.0\Snippets.AssemblyInfo.cs
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Snippets\Snippets\obj\Debug\netcoreapp3.0\Snippets.dll
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Snippets\Snippets\obj\Debug\netcoreapp3.0\Snippets.pdb
