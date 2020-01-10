@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v3.0",
@@ -20,4 +21,28 @@
       "sha512": ""
     }
   }
+=======
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "ToolBox/1.0.0": {
+        "runtime": {
+          "ToolBox.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ToolBox/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+>>>>>>> e0b646c28034fcdbde7fff435b5edabcb423293a
 }

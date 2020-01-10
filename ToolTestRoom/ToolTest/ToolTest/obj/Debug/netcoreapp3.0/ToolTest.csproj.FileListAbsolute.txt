@@ -1,0 +1,13 @@
+C:\Users\Yolly\Google Drive\Codee\[ GITHUBBED ]\[ MyStuff ]\CodePad\ToolTestRoom\ToolTest\ToolTest\bin\Debug\netcoreapp3.0\ToolTest.exe
+C:\Users\Yolly\Google Drive\Codee\[ GITHUBBED ]\[ MyStuff ]\CodePad\ToolTestRoom\ToolTest\ToolTest\bin\Debug\netcoreapp3.0\ToolTest.deps.json
+C:\Users\Yolly\Google Drive\Codee\[ GITHUBBED ]\[ MyStuff ]\CodePad\ToolTestRoom\ToolTest\ToolTest\bin\Debug\netcoreapp3.0\ToolTest.runtimeconfig.json
+C:\Users\Yolly\Google Drive\Codee\[ GITHUBBED ]\[ MyStuff ]\CodePad\ToolTestRoom\ToolTest\ToolTest\bin\Debug\netcoreapp3.0\ToolTest.runtimeconfig.dev.json
+C:\Users\Yolly\Google Drive\Codee\[ GITHUBBED ]\[ MyStuff ]\CodePad\ToolTestRoom\ToolTest\ToolTest\bin\Debug\netcoreapp3.0\ToolTest.dll
+C:\Users\Yolly\Google Drive\Codee\[ GITHUBBED ]\[ MyStuff ]\CodePad\ToolTestRoom\ToolTest\ToolTest\bin\Debug\netcoreapp3.0\ToolTest.pdb
+C:\Users\Yolly\Google Drive\Codee\[ GITHUBBED ]\[ MyStuff ]\CodePad\ToolTestRoom\ToolTest\ToolTest\bin\Debug\netcoreapp3.0\ToolBox.dll
+C:\Users\Yolly\Google Drive\Codee\[ GITHUBBED ]\[ MyStuff ]\CodePad\ToolTestRoom\ToolTest\ToolTest\obj\Debug\netcoreapp3.0\ToolTest.csprojAssemblyReference.cache
+C:\Users\Yolly\Google Drive\Codee\[ GITHUBBED ]\[ MyStuff ]\CodePad\ToolTestRoom\ToolTest\ToolTest\obj\Debug\netcoreapp3.0\ToolTest.AssemblyInfoInputs.cache
+C:\Users\Yolly\Google Drive\Codee\[ GITHUBBED ]\[ MyStuff ]\CodePad\ToolTestRoom\ToolTest\ToolTest\obj\Debug\netcoreapp3.0\ToolTest.AssemblyInfo.cs
+C:\Users\Yolly\Google Drive\Codee\[ GITHUBBED ]\[ MyStuff ]\CodePad\ToolTestRoom\ToolTest\ToolTest\obj\Debug\netcoreapp3.0\ToolTest.csproj.CopyComplete
+C:\Users\Yolly\Google Drive\Codee\[ GITHUBBED ]\[ MyStuff ]\CodePad\ToolTestRoom\ToolTest\ToolTest\obj\Debug\netcoreapp3.0\ToolTest.dll
+C:\Users\Yolly\Google Drive\Codee\[ GITHUBBED ]\[ MyStuff ]\CodePad\ToolTestRoom\ToolTest\ToolTest\obj\Debug\netcoreapp3.0\ToolTest.pdb
