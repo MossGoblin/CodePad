@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yolly\\Google Drive\\Codee\\[ GITHUBBED ]\\[ MyStuff ]\\CodePad\\ToolBox\\ToolBox\\ToolBox\\ToolBox.csproj": {}
+    "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\ToolBox\\ToolBox\\ToolBox\\ToolBox.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yolly\\Google Drive\\Codee\\[ GITHUBBED ]\\[ MyStuff ]\\CodePad\\ToolBox\\ToolBox\\ToolBox\\ToolBox.csproj": {
+    "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\ToolBox\\ToolBox\\ToolBox\\ToolBox.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yolly\\Google Drive\\Codee\\[ GITHUBBED ]\\[ MyStuff ]\\CodePad\\ToolBox\\ToolBox\\ToolBox\\ToolBox.csproj",
+        "projectUniqueName": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\ToolBox\\ToolBox\\ToolBox\\ToolBox.csproj",
         "projectName": "ToolBox",
-        "projectPath": "C:\\Users\\Yolly\\Google Drive\\Codee\\[ GITHUBBED ]\\[ MyStuff ]\\CodePad\\ToolBox\\ToolBox\\ToolBox\\ToolBox.csproj",
-        "packagesPath": "C:\\Users\\Yolly\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yolly\\Google Drive\\Codee\\[ GITHUBBED ]\\[ MyStuff ]\\CodePad\\ToolBox\\ToolBox\\ToolBox\\obj\\",
+        "projectPath": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\ToolBox\\ToolBox\\ToolBox\\ToolBox.csproj",
+        "packagesPath": "C:\\Users\\Angel.Slavchev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\ToolBox\\ToolBox\\ToolBox\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Yolly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Angel.Slavchev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
