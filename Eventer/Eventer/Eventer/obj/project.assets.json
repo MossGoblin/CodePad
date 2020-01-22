@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Angel.Slavchev\\.nuget\\packages\\": {},
+    "C:\\Users\\hugol\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\Eventer\\Eventer\\Eventer\\Eventer.csproj",
+      "projectUniqueName": "C:\\Users\\hugol\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad (1)\\Eventer\\Eventer\\Eventer\\Eventer.csproj",
       "projectName": "Eventer",
-      "projectPath": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\Eventer\\Eventer\\Eventer\\Eventer.csproj",
-      "packagesPath": "C:\\Users\\Angel.Slavchev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\Eventer\\Eventer\\Eventer\\obj\\",
+      "projectPath": "C:\\Users\\hugol\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad (1)\\Eventer\\Eventer\\Eventer\\Eventer.csproj",
+      "packagesPath": "C:\\Users\\hugol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hugol\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad (1)\\Eventer\\Eventer\\Eventer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Angel.Slavchev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hugol\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -48,21 +48,10 @@
     "frameworks": {
       "netcoreapp3.0": {
         "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
+          "net461"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "warn": true
       }
     }
   }

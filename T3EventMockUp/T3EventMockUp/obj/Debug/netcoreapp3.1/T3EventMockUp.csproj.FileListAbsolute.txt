@@ -1,0 +1,11 @@
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\T3EventMockUp\T3EventMockUp\bin\Debug\netcoreapp3.1\T3EventMockUp.exe
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\T3EventMockUp\T3EventMockUp\bin\Debug\netcoreapp3.1\T3EventMockUp.deps.json
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\T3EventMockUp\T3EventMockUp\bin\Debug\netcoreapp3.1\T3EventMockUp.runtimeconfig.json
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\T3EventMockUp\T3EventMockUp\bin\Debug\netcoreapp3.1\T3EventMockUp.runtimeconfig.dev.json
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\T3EventMockUp\T3EventMockUp\bin\Debug\netcoreapp3.1\T3EventMockUp.dll
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\T3EventMockUp\T3EventMockUp\bin\Debug\netcoreapp3.1\T3EventMockUp.pdb
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\T3EventMockUp\T3EventMockUp\obj\Debug\netcoreapp3.1\T3EventMockUp.csprojAssemblyReference.cache
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\T3EventMockUp\T3EventMockUp\obj\Debug\netcoreapp3.1\T3EventMockUp.AssemblyInfoInputs.cache
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\T3EventMockUp\T3EventMockUp\obj\Debug\netcoreapp3.1\T3EventMockUp.AssemblyInfo.cs
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\T3EventMockUp\T3EventMockUp\obj\Debug\netcoreapp3.1\T3EventMockUp.dll
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\T3EventMockUp\T3EventMockUp\obj\Debug\netcoreapp3.1\T3EventMockUp.pdb

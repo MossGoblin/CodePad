@@ -4,6 +4,7 @@ using System.Text;
 
 namespace Snippets
 {
+    #region
     static class Initializer
     {
         public static IEnumerable<int> Init(int size, int value)
@@ -97,4 +98,44 @@ namespace Snippets
             return initializedCollection;
         }
     }
+
+    #endregion
+
+    public class Array<T> where T : IComparable
+    {
+        public T[] Return { get; private set; }
+        private int size;
+        private T value;
+
+        public Array()
+        {
+
+        }
+        public Array(int arraySize, T initValue)
+        {
+            size = arraySize;
+            value = initValue;
+            Return = new T[size];
+            for (int counter = 0; counter < size; counter++)
+            {
+                Return[counter] = initValue;
+            }
+        }
+
+        public T[] Fill(int size, T value)
+        {
+            Return = new T[size];
+            for (int counter = 0; counter < size; counter++)
+            {
+                Return[counter] = value;
+            }
+            return Return;
+        }
+
+        public void TestMethod()
+        {
+
+        }
+    }
+
 }

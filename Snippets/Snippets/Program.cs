@@ -9,7 +9,9 @@ namespace Snippets
         static void Main(string[] args)
         {
             //CheckBalance();
-            InitArray();
+            //InitArray();
+            //TestTheClass();
+            TestArray();
         }
 
         private static void InitArray()
@@ -46,5 +48,17 @@ namespace Snippets
             Console.WriteLine($"Disbalance = {BalanceChecker.GetMeanDiff()}");
             Console.WriteLine($"Disbalance = {BalanceChecker.GetBalance()}");
         }
+
+        private static void TestArray()
+        {
+            double[] doubleArray1 = new Array<double>(5, 3.3).Return;
+            Console.WriteLine("Double ctor : " + String.Join(", ", doubleArray1));
+            double[] doubleArray2 = new Array<double>().Fill(5, 2.2);
+            Console.WriteLine("Double mthd : " + String.Join(", ", doubleArray2));
+            string[] stringArray = new Array<string>(6, "a").Return;
+            Console.WriteLine("String ctor : " + String.Join(", ", stringArray));
+        }
+
     }
+
 }

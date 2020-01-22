@@ -20,3 +20,8 @@ C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Snippets\Snippet
 C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Snippets\Snippets\obj\Debug\netcoreapp3.0\Snippets.AssemblyInfo.cs
 C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Snippets\Snippets\obj\Debug\netcoreapp3.0\Snippets.dll
 C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Snippets\Snippets\obj\Debug\netcoreapp3.0\Snippets.pdb
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Snippets\Snippets\bin\Debug\netcoreapp3.0\xunit.abstractions.dll
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Snippets\Snippets\bin\Debug\netcoreapp3.0\xunit.assert.dll
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Snippets\Snippets\bin\Debug\netcoreapp3.0\xunit.core.dll
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Snippets\Snippets\bin\Debug\netcoreapp3.0\xunit.execution.dotnet.dll
+C:\Users\Angel.Slavchev\Google Drive\[ MULE ]\[ CODEE ]\CodePad\Snippets\Snippets\obj\Debug\netcoreapp3.0\Snippets.csproj.CopyComplete
