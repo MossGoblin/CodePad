@@ -38,15 +38,13 @@ namespace Accessor
 		public static void TestBalance()
 		{
 			int listCount = 10;
-			int listSize = 10;
+			int listSize = 2;
 			List<List<int>> collectionsList = new List<List<int>>();
-			List<int> controlCollectionOne = new List<int> { 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 };
-			List<int> controlCollectionTwo = new List<int> { 10, 10, 10, 10, 10, 10, 10, 10, 0, 0 };
-			List<int> controlCollectionThree = new List<int> { 10, 10, 10, 10, 10, 5, 5, 5, 5, 5 };
+			List<int> controlCollectionOne = new List<int> { 3, 1 };
+			List<int> controlCollectionTwo = new List<int> { 2, 1 };
 
 			collectionsList.Add(controlCollectionOne);
 			collectionsList.Add(controlCollectionTwo);
-			collectionsList.Add(controlCollectionThree);
 
 			Random rnd = new Random();
 
