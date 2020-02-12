@@ -81,7 +81,7 @@ namespace FactoryAttempt
             return String.Empty; // default return
         }
 
-        public static string RemoveBulkObjects(ObjectPooler pooler, int toBeRemoved)
+        public static string RemoveBulkObjects(ObjectPooler pooler, int toBeRemoved) // FIXME : This should ALL not be part of the Factory !!
         {
             // check if there is such a pool
             Type objectType = typeof(T);
@@ -91,7 +91,7 @@ namespace FactoryAttempt
                 int objectCount = pooler.pools[objectType].Count;
                 int numberOfDecativations = Math.Min(toBeRemoved, objectCount);
                 // deactivate 'numberOfDecativations' number of objects
-                foreach (var objectOfType in pooler.pools[objectType]) // TODO : HERE - should NOT foreach
+                foreach (var objectOfType in pooler.pools[objectType]) // should NOT foreach
                 {
                     if (numberOfDecativations > 0 && objectOfType.Value == true) // if the object is active
                     {
@@ -107,10 +107,14 @@ namespace FactoryAttempt
             {
                 return $"Type {objectType.Name} note present in the pools";
             }
-
-
+        }
+        
+        public static string RemoveObject()
+        {
+            // TODO : HERE
             return String.Empty;
         }
+
 
         public static List<IPoolable> ListPooledObjects(ObjectPooler pooler, Type objectType, bool inactive)
         {
