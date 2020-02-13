@@ -81,46 +81,27 @@ namespace FactoryAttempt
             return String.Empty; // default return
         }
 
-        public static string RemoveBulkObjects(ObjectPooler pooler, int toBeRemoved) // FIXME : This should ALL not be part of the Factory !!
+        public static List<IPoolable> ListPooledObjects(ObjectPooler pooler, Type objectType, bool activeOnly)
         {
-            // check if there is such a pool
-            Type objectType = typeof(T);
-            if (pooler.pools.ContainsKey(objectType)) // there is such a type pool
+            // check if there is a pool of the corresponding type
+            if (pooler.pools.ContainsKey(objectType))
             {
-                // get the number count for that type pool
-                int objectCount = pooler.pools[objectType].Count;
-                int numberOfDecativations = Math.Min(toBeRemoved, objectCount);
-                // deactivate 'numberOfDecativations' number of objects
-                foreach (var objectOfType in pooler.pools[objectType]) // should NOT foreach
+                List<IPoolable> resultList = new List<IPoolable>();
+                foreach (var item in pooler.pools[objectType])
                 {
-                    if (numberOfDecativations > 0 && objectOfType.Value == true) // if the object is active
+                    if (item.Value == activeOnly || activeOnly == false)
                     {
-                        IPoolable item = objectOfType.Key;
-                        // deavtivate object
-                        pooler.pools[objectType][item] = false;
-                        numberOfDecativations--;
+                        resultList.Add(item.Key);
                     }
                 }
-                return $"Removed {toBeRemoved} objects of type {objectType.Name}";
+                return resultList;
             }
             else
             {
-                return $"Type {objectType.Name} note present in the pools";
+                return null;
             }
-        }
-        
-        public static string RemoveObject()
-        {
+
             // TODO : HERE
-            return String.Empty;
-        }
-
-
-        public static List<IPoolable> ListPooledObjects(ObjectPooler pooler, Type objectType, bool inactive)
-        {
-            // check if there is such a type
-            // convert the pool into a list (? including inactive)
-            return null;
         }
     }
 }

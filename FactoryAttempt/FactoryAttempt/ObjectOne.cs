@@ -6,16 +6,16 @@ namespace FactoryAttempt
 {
     class ObjectOne : IPoolable
     {
-        private int index;
+        public int Index { get; private set; }
 
         public ObjectOne()
         {
             Random rnd = new Random();
-            this.index = rnd.Next(10000);
+            this.Index = rnd.Next(10000);
         }
         public string GetName()
         {
-            return $"[{this.GetName().ToString()} {index}]";
+            return $"[{this.GetName().ToString()} {Index}]";
         }
     }
 }
