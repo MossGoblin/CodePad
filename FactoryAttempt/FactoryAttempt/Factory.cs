@@ -7,7 +7,7 @@ namespace FactoryAttempt
 {
     public static class Factory<T> where T : IPoolable
     {
-        public static IPoolable CreateObject(ObjectPooler pooler)
+        public static IPoolable ProduceObject(PoolManager pooler)
         {
             Type objectType = typeof(T);
             // check if the pooler has the appopriate pool
@@ -19,7 +19,7 @@ namespace FactoryAttempt
                     // extract the object
                     IPoolable activatedObject = pooler.pools[objectType].FirstOrDefault(p => p.Value == false).Key;
                     // mark it as activated
-                    pooler.pools[objectType][activatedObject] = false;
+                    pooler.pools[objectType][activatedObject] = true;
                     // return the activated object
                     return activatedObject;
                 }
@@ -47,7 +47,7 @@ namespace FactoryAttempt
             }
         }
 
-        public static string RemovePoolable(ObjectPooler pooler, IPoolable removable)
+        public static string RemoveObject(PoolManager pooler, IPoolable removable)
         {
             // get the type of the object that is to be removed
             Type objectType = removable.GetType();
@@ -81,7 +81,7 @@ namespace FactoryAttempt
             return String.Empty; // default return
         }
 
-        public static List<IPoolable> ListPooledObjects(ObjectPooler pooler, Type objectType, bool activeOnly)
+        public static List<IPoolable> ListPooledObjects(PoolManager pooler, Type objectType, bool activeOnly)
         {
             // check if there is a pool of the corresponding type
             if (pooler.pools.ContainsKey(objectType))

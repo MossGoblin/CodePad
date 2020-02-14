@@ -4,11 +4,11 @@ using System.Text;
 
 namespace FactoryAttempt
 {
-    public class ObjectPooler
+    public class PoolManager
     {
         public Dictionary<Type, Dictionary<IPoolable, bool>> pools;
 
-        public ObjectPooler()
+        public PoolManager()
         {
             pools = new Dictionary<Type, Dictionary<IPoolable, bool>>();
         }

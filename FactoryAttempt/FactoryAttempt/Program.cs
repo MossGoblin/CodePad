@@ -9,7 +9,7 @@ namespace FactoryAttempt
         static void Main(string[] args)
         {
             // create pooler
-            ObjectPooler pooler = new ObjectPooler();
+            PoolManager pooler = new PoolManager();
 
             List<IPoolable> pooledList = new List<IPoolable>();
 
@@ -18,7 +18,7 @@ namespace FactoryAttempt
             int itemsToAddAgain = 5;
 
             // add some objects (ObjectOne)
-            DoBusiness(pooler, itemsToAdd);
+            CreateObjects(pooler, itemsToAdd);
             // list what we have
             pooledList = ExtractPooled(pooler, typeof(ObjectOne), true);
             PrintList(pooledList);
@@ -29,31 +29,31 @@ namespace FactoryAttempt
             PrintList(pooledList);
 
             // add some more objects (ObjectOne)
-            DoBusiness(pooler, itemsToAddAgain); // TODO : HERE IT BREAKS
+            CreateObjects(pooler, itemsToAddAgain); // TODO : HERE
             // list what we have
             pooledList = ExtractPooled(pooler, typeof(ObjectOne), true);
             PrintList(pooledList);
 
         }
 
-        private static void RemoveObjects(ObjectPooler pooler, int itemsToRemove, List<IPoolable> pooledList)
+        private static void RemoveObjects(PoolManager pooler, int itemsToRemove, List<IPoolable> pooledList)
         {
             for (int count = 0; count < itemsToRemove; count++)
             {
-                Factory<ObjectOne>.RemovePoolable(pooler, pooledList[count]);
+                Factory<ObjectOne>.RemoveObject(pooler, pooledList[count]);
             }
         }
 
-        private static List<IPoolable> ExtractPooled(ObjectPooler pooler, Type type, bool activeOnly)
+        private static List<IPoolable> ExtractPooled(PoolManager pooler, Type type, bool activeOnly)
         {
             return Factory<ObjectOne>.ListPooledObjects(pooler, type, activeOnly);
         }
 
-        private static void DoBusiness(ObjectPooler pooler, int iterations)
+        private static void CreateObjects(PoolManager pooler, int iterations)
         {
             for (int count = 0; count < iterations; count++)
             {
-                Factory<ObjectOne>.CreateObject(pooler);
+                Factory<ObjectOne>.ProduceObject(pooler);
             }
         }
 
