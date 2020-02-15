@@ -6,11 +6,11 @@ namespace FactoryAttempt
 {
     public class PoolManager
     {
-        public Dictionary<Type, Dictionary<IPoolable, bool>> pools;
+        public Dictionary<Type, Dictionary<IProduct, bool>> pools;
 
         public PoolManager()
         {
-            pools = new Dictionary<Type, Dictionary<IPoolable, bool>>();
+            pools = new Dictionary<Type, Dictionary<IProduct, bool>>();
         }
     }
 }

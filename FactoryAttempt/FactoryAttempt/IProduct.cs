@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FactoryAttempt
 {
-    public interface IPoolable
+    public interface IProduct
     {
         public string GetName();
     }

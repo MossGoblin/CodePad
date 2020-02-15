@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FactoryAttempt
 {
-    class ObjectOne : IPoolable
+    class ObjectOne : IProduct
     {
         public int Index { get; private set; }
 

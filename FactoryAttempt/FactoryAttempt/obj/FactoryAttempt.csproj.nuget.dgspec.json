@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\FactoryAttempt\\FactoryAttempt\\FactoryAttempt.csproj": {}
+    "C:\\Users\\hugol\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\FactoryAttempt\\FactoryAttempt\\FactoryAttempt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\FactoryAttempt\\FactoryAttempt\\FactoryAttempt.csproj": {
+    "C:\\Users\\hugol\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\FactoryAttempt\\FactoryAttempt\\FactoryAttempt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\FactoryAttempt\\FactoryAttempt\\FactoryAttempt.csproj",
+        "projectUniqueName": "C:\\Users\\hugol\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\FactoryAttempt\\FactoryAttempt\\FactoryAttempt.csproj",
         "projectName": "FactoryAttempt",
-        "projectPath": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\FactoryAttempt\\FactoryAttempt\\FactoryAttempt.csproj",
-        "packagesPath": "C:\\Users\\Angel.Slavchev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Angel.Slavchev\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\FactoryAttempt\\FactoryAttempt\\obj\\",
+        "projectPath": "C:\\Users\\hugol\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\FactoryAttempt\\FactoryAttempt\\FactoryAttempt.csproj",
+        "packagesPath": "C:\\Users\\hugol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hugol\\Google Drive\\[ MULE ]\\[ CODEE ]\\CodePad\\FactoryAttempt\\FactoryAttempt\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Angel.Slavchev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hugol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

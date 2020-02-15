@@ -11,7 +11,7 @@ namespace FactoryAttempt
             // create pooler
             PoolManager pooler = new PoolManager();
 
-            List<IPoolable> pooledList = new List<IPoolable>();
+            List<IProduct> pooledList = new List<IProduct>();
 
             int itemsToAdd = 7;
             int itemsToRemove = 3;
@@ -36,7 +36,7 @@ namespace FactoryAttempt
 
         }
 
-        private static void RemoveObjects(PoolManager pooler, int itemsToRemove, List<IPoolable> pooledList)
+        private static void RemoveObjects(PoolManager pooler, int itemsToRemove, List<IProduct> pooledList)
         {
             for (int count = 0; count < itemsToRemove; count++)
             {
@@ -44,7 +44,7 @@ namespace FactoryAttempt
             }
         }
 
-        private static List<IPoolable> ExtractPooled(PoolManager pooler, Type type, bool activeOnly)
+        private static List<IProduct> ExtractPooled(PoolManager pooler, Type type, bool activeOnly)
         {
             return Factory<ObjectOne>.ListPooledObjects(pooler, type, activeOnly);
         }
@@ -57,7 +57,7 @@ namespace FactoryAttempt
             }
         }
 
-        private static void PrintList(List<IPoolable> list)
+        private static void PrintList(List<IProduct> list)
         {
             Console.Write($"{list[0].GetType()}: ");
             foreach (var item in list)

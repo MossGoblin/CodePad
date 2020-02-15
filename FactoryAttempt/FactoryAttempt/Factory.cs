@@ -5,9 +5,9 @@ using System.Text;
 
 namespace FactoryAttempt
 {
-    public static class Factory<T> where T : IPoolable
+    public static class Factory<T> where T : IProduct
     {
-        public static IPoolable ProduceObject(PoolManager pooler)
+        public static IProduct ProduceObject(PoolManager pooler)
         {
             Type objectType = typeof(T);
             // check if the pooler has the appopriate pool
@@ -17,7 +17,7 @@ namespace FactoryAttempt
                 if (pooler.pools[objectType].ContainsValue(false)) // there is an available object
                 {
                     // extract the object
-                    IPoolable activatedObject = pooler.pools[objectType].FirstOrDefault(p => p.Value == false).Key;
+                    IProduct activatedObject = pooler.pools[objectType].FirstOrDefault(p => p.Value == false).Key;
                     // mark it as activated
                     pooler.pools[objectType][activatedObject] = true;
                     // return the activated object
@@ -26,7 +26,7 @@ namespace FactoryAttempt
                 else // there is no available object
                 {
                     // create new object
-                    IPoolable newObjectTypeAsIPoolable = (IPoolable)Activator.CreateInstance(objectType);
+                    IProduct newObjectTypeAsIPoolable = (IProduct)Activator.CreateInstance(objectType);
                     // pool the object
                     pooler.pools[objectType].Add(newObjectTypeAsIPoolable, true);
                     // return the object
@@ -36,10 +36,10 @@ namespace FactoryAttempt
             else // the pooler does NOT have the type pool
             {
                 // create the pool
-                Dictionary<IPoolable, bool> newTypeDictionary = new Dictionary<IPoolable, bool>();
+                Dictionary<IProduct, bool> newTypeDictionary = new Dictionary<IProduct, bool>();
                 pooler.pools.Add(objectType, newTypeDictionary);
                 // create new object
-                IPoolable newObjectTypeAsIPoolable = (IPoolable)Activator.CreateInstance(objectType);
+                IProduct newObjectTypeAsIPoolable = (IProduct)Activator.CreateInstance(objectType);
                 // pool the new object
                 newTypeDictionary.Add(newObjectTypeAsIPoolable, true);
                 // return the new object
@@ -47,7 +47,7 @@ namespace FactoryAttempt
             }
         }
 
-        public static string RemoveObject(PoolManager pooler, IPoolable removable)
+        public static string RemoveObject(PoolManager pooler, IProduct removable)
         {
             // get the type of the object that is to be removed
             Type objectType = removable.GetType();
@@ -81,12 +81,12 @@ namespace FactoryAttempt
             return String.Empty; // default return
         }
 
-        public static List<IPoolable> ListPooledObjects(PoolManager pooler, Type objectType, bool activeOnly)
+        public static List<IProduct> ListPooledObjects(PoolManager pooler, Type objectType, bool activeOnly)
         {
             // check if there is a pool of the corresponding type
             if (pooler.pools.ContainsKey(objectType))
             {
-                List<IPoolable> resultList = new List<IPoolable>();
+                List<IProduct> resultList = new List<IProduct>();
                 foreach (var item in pooler.pools[objectType])
                 {
                     if (item.Value == activeOnly || activeOnly == false)
